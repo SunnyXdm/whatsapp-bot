@@ -8,8 +8,7 @@ const client = new Client({
   puppeteer: {
     headless: true,
     args: ["--no-sandbox"],
-    executablePath:
-      "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    executablePath: "/usr/bin/google-chrome",
   },
 });
 
